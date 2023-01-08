@@ -1,0 +1,19 @@
+:root {
+  --color-canvas-default: #00000000;
+}
+
+.markdown-body {
+  background-color: var(--color-canvas-default);
+}
+
+@media (prefers-color-scheme: dark) {
+  .markdown-body {
+    --color-canvas-default: #00000000;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .markdown-body {
+    --color-canvas-default: #ffffff00;
+  }
+}
